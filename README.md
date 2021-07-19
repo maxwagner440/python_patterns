@@ -13,3 +13,8 @@
 ## Adapter
   Solving problem of two clients that do not understand each other. 
   - clients speak different "languages" and need to be adapted to each other.
+
+## Composite
+  Composite - Maintains a tree-data structure to represent part-whole relationships
+    - Recursive tree data structure
+    - menu, sub-menu items with sub-menu items
