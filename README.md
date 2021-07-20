@@ -18,3 +18,6 @@
   Composite - Maintains a tree-data structure to represent part-whole relationships
     - Recursive tree data structure
     - menu, sub-menu items with sub-menu items
+## Bridge 
+  - helps to untangle complex class heirarchy
+  - two abstractions with implementation dependent and independent
