@@ -21,3 +21,9 @@
 ## Bridge 
   - helps to untangle complex class heirarchy
   - two abstractions with implementation dependent and independent
+
+
+## Observer
+
+ - Subjects need to be monitored
+ - Observers need to be notified when change in subject
