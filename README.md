@@ -27,3 +27,6 @@
 
  - Subjects need to be monitored
  - Observers need to be notified when change in subject
+
+## Visitor
+ - Adds new features to existing classes without changing classes
