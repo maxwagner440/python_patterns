@@ -33,3 +33,6 @@
 
 ## Iterator
  - Allows client to have access to elements of an aggregate objects without exposing underlying structure
+
+## Strategy
+ - Offers number of dynaically interchangable clients to object?
