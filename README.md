@@ -30,3 +30,6 @@
 
 ## Visitor
  - Adds new features to existing classes without changing classes
+
+## Iterator
+ - Allows client to have access to elements of an aggregate objects without exposing underlying structure
