@@ -2,37 +2,31 @@ import types
 
 class Strategy:
     
-    def __init__(self, function=None):
-        self.name = "default strategy"
-        
+    def __init__(self, function=None):        
         # set new fuction to execute()
         if function:
             self.execute = types.MethodType(function, self)
         
-    def execute(self):
-        print("{} is used!".format(self.name))
+    def execute(self, a):
+        print("no sorting: {}".format(a))
         
 
-def strategy_one(self):
-    print("{} is used to execute method 1!".format(self.name))
+def strategy_one_ascending(self, a):
+    a.sort()
+    print("ascending: {}".format(a))
 
-def strategy_two(self):
-    print("{} is used to execute method 2!".format(self.name))
+def strategy_two_decending(self, a):
+    a.sort(reverse=True)
+    print("descending: {}".format(a))
 
-
+array = [122, 444, 3, 25234, 2]
 s0 = Strategy()
 
-s0.execute()
+s0.execute(array)
 
-s1 = Strategy(function=strategy_one)
-
-s1.name = "second strategy"
-
-s1.execute()
+s1 = Strategy(function=strategy_one_ascending)
+s1.execute(array)
 
 
-s2 = Strategy(function=strategy_two)
-
-s2.name = "third strategy"
-
-s2.execute()
+s2 = Strategy(function=strategy_two_decending)
+s2.execute(array)
