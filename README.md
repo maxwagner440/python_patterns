@@ -36,3 +36,6 @@
 
 ## Strategy
  - Offers number of dynaically interchangable clients to object?
+
+## Chain of Responsibility
+ - Decouples requests and their processing
